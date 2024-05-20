@@ -20,11 +20,14 @@ public class LanguageCounter {
 				obj.put(str,1);
 			}
 		
-	
-		System.out.println(obj);
-
-	}
-
+	    }
+     for(String str : obj.keySet())
+     {
+    	 if(obj.get(str)>1) 
+    	 {
+    		 System.out.println(str +" "+obj.get(str));
+    	 }
+     }
 
 	}
 }
