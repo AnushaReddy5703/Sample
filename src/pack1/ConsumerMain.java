@@ -39,5 +39,4 @@ public class ConsumerMain {
 	};
 	stringConsumer.andThen(stringConsumer2).accept("Anusha");
 	}
-
 }
